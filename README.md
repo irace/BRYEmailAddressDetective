@@ -7,7 +7,8 @@ This only works if their device has a default name e.g. "Bryan Irace's iPhone".
 ## Usage
 
 ```objectivec
-NSString *emailAddress = [BRYEmailAddressDetective determineEmailAddress:[UIDevice currentDevice].name];
+NSString *emailAddress = [BRYEmailAddressDetective determineEmailAddress:
+                          [UIDevice currentDevice].name];
 ```
 
 ## License
